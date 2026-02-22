@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #0F172A;
+  color: #F1F5F9;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 10%;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.nav-links a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #94A3B8;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #6366F1;
+}
+
+.hero {
+  padding: 8rem 10%;
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero h2 {
+  margin-top: 1rem;
+  color: #94A3B8;
+  font-weight: 400;
+}
+
+.hero p {
+  margin: 1.5rem 0;
+  color: #94A3B8;
+}
+
+.accent {
+  color: #6366F1;
+}
+
+.section {
+  padding: 6rem 10%;
+  max-width: 900px;
+}
+
+.section h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.project-card {
+  background-color: #1E293B;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  background-color: #6366F1;
+  color: #F1F5F9;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #6366F1;
+  color: #6366F1;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+  cursor: pointer;
+}

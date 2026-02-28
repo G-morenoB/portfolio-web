@@ -11,17 +11,14 @@ function Hero() {
         </section>
 
         <h1>
-         Hola, soy Gael <span className="accent"> Bataz</span>
+         Hola, soy Gael <span className="lastname"> Bataz</span>
         </h1>
 
-        <h2 className="title">
-          Construyo interfaces que no se juzgan por su cover…
-        </h2>
-
-        <p className="description">
-          Desarrollador enfocado en crear productos digitales elegantes,
+        <h2 className="description">
+          <span className="accent"> Licenciado en Ciencias de la Computación</span> con enfoque en 
+          desarrollo web y creación de productos digitales elegantes,
           funcionales y modernos.
-        </p>
+        </h2>
       </div>
 
       <div className="glow-circle"></div>

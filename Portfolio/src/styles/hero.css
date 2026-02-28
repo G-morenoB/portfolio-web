@@ -86,17 +86,12 @@
   font-weight: 700;
 }
 
-.title {
+.description {
   margin-top: 1rem;
-  color: #F1F5F9;
+  color: #D1D5DB;
   font-weight: 400;
 }
 
-.description {
-  margin-top: 1.5rem;
-  color: #94A3B8;
-}
-
 .accent {
-  color: #6366F1;
+    color: #FEF08A;
 }

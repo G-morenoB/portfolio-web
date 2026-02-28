@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import '../styles/navbar.css'
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +18,7 @@ function Navbar() {
         <li onClick={() => setIsOpen(false)}>Home</li>
         <li onClick={() => setIsOpen(false)}>Experience</li>
         <li onClick={() => setIsOpen(false)}>Projects</li>
-        <li onClick={() => setIsOpen(false)}>Contact</li>
+        <li onClick={() => setIsOpen(false)}>Sobre mi</li>
       </ul>
     </nav>
   );

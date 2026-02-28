@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   color: #F1F5F9;
+  padding: 0;
+  background-color: #0F172A;
+  overflow-x: hidden;
 }
+
 .app-container {
   background-color: #0F172A;
   min-height: 100vh;
@@ -11,7 +22,7 @@ body {
 .hero {
   position: relative;
  padding: 10rem 10% 8rem 10%;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 
 .hero-content {
@@ -77,106 +88,15 @@ body {
   background: rgba(99, 102, 241, 0.15);
 }
 
-/* Projects */
-.project-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 4rem;
-  gap: 3rem;
-}
+/* Projects STYLES */
 
 .project-image {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 250px;
   background: #1E293B;
   border-radius: 16px;
 }
-/* NAVBAR */
-.navbar {
-    box-sizing: border-box;
-  width: 100%;
-  padding: 1.5rem 1.5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-  position: fixed;
-  top: 0;
 
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(12px);
 
-  border-bottom: 1px solid rgba(99, 102, 241, 0.1);
-  z-index: 1000;
-}
-
-.navbar-logo {
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  color: #F1F5F9;
-  cursor: pointer;
-}
-
-.navbar-links {
-  display: flex;
-  gap: 2.5rem;
-  list-style: none;
-}
-
-/* HAMBURGER */
-.hamburger {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: #F1F5F9;
-}
-
-@media (max-width: 768px) {
-    .hamburger {
-    display: block;
-  }
-.navbar-links {
-     position: absolute;
-    top: 100%;
-    right: -100%;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 0;
-
-    background: rgba(15, 23, 42, 0.95);
-    backdrop-filter: blur(12px);
-
-  transition: right 0.3s ease; 
-
-}
-.navbar-links.active {
-    right: 0;
-  }
-
-}
-
-.navbar-links li:hover {
-  color: #6366F1;
-}
-
-/* línea animada */
-.navbar-links li::after {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: -6px;
-  left: 0;
-  background-color: #6366F1;
-  transition: width 0.3s ease;
-}
-
-.navbar-links li:hover::after {
-  width: 100%;
-}

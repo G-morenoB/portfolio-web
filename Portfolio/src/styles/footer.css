@@ -1,0 +1,35 @@
+
+/*Contact Styles*/
+.contact-section {
+  padding: 4rem 10%;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.contact-item a:hover {
+  opacity: 0.7;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

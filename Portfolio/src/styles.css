@@ -19,41 +19,6 @@ body {
   background-color: #0F172A;
   min-height: 100vh;
 }
-.hero {
-  position: relative;
- padding: 10rem 10% 8rem 10%;
-   overflow-x: hidden;
-}
-
-.hero-content {
-  max-width: 600px;
-  z-index: 2;
-  position: relative;
-}
-
-.intro {
-  color: #94A3B8;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
-
-.title {
-  margin-top: 1rem;
-  color: #F1F5F9;
-  font-weight: 400;
-}
-
-.description {
-  margin-top: 1.5rem;
-  color: #94A3B8;
-}
-
-.accent {
-  color: #6366F1;
-}
 
 /* Glow Effect */
 .glow-circle {

@@ -1,10 +1,17 @@
+import '../styles/hero.css'
+
 function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="intro">Hola, soy</p>
+
+        <section className="img-button">
+        <img src="src/img/Gael_img.jpeg" alt="Foto de Gael" className="img_Gael"></img>
+        <button className="button-contact">Contactame para trabajar</button>
+        </section>
+
         <h1>
-          Ubaldo Gael <span className="accent">Moreno Bataz</span>
+         Hola, soy Gael <span className="accent"> Bataz</span>
         </h1>
 
         <h2 className="title">
@@ -23,3 +30,4 @@ function Hero() {
 }
 
 export default Hero;
+

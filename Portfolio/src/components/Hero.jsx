@@ -20,9 +20,8 @@ function Hero() {
         </h1>
 
         <h2 className="description">
-          <span className="accent"> Licenciado en Ciencias de la Computación</span> con enfoque en 
-          desarrollo web y creación de productos digitales elegantes,
-          funcionales y modernos.
+          <span className="accent"> Licenciado en Ciencias de la Computación</span> enfocado en desarrollo web moderno 
+          y creación de productos digitales escalables. 
         </h2>
 
 <section className="contacts-content"> 

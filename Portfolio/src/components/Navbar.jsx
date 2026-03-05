@@ -16,8 +16,8 @@ function Navbar() {
 
       <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
         <li onClick={() => setIsOpen(false)}>Home</li>
-        <li onClick={() => setIsOpen(false)}>Experience</li>
-        <li onClick={() => setIsOpen(false)}>Projects</li>
+        <li onClick={() => setIsOpen(false)}>Experiencia</li>
+        <li onClick={() => setIsOpen(false)}>Proyectos</li>
         <li onClick={() => setIsOpen(false)}>Sobre mi</li>
       </ul>
     </nav>

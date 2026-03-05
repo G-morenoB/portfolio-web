@@ -6,8 +6,8 @@
 
 .img_Gael{
   border-radius: 50%;
-  height: 90px;
-  width: 90px; 
+  height: 100px;
+  width: 100px; 
   object-fit: cover;
 }
 
@@ -15,7 +15,7 @@
   position: relative;
   padding: 0.6rem 1.5rem;
   border-radius: 999px;
-  background-color: #0F172A;
+  background-color: #1F2937;
    border: 2px solid #6366F1;
   color: #F1F5F9;
   font-size: 1rem;
@@ -95,3 +95,36 @@
 .accent {
     color: #FEF08A;
 }
+
+.contacts-content{
+    display: flex; 
+    align-items: center;
+    gap: 1rem; 
+    margin-top: 1.5rem;
+}
+
+.contact-me{
+  display: flex; 
+  align-items: center;
+  gap: .6rem;
+  position: relative;
+  padding: 0.6rem 1.5rem;
+  border-radius: 999px;
+  background-color: #0F172A;
+  border: 2px solid #6e6f7c;
+  color: #F1F5F9;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.contact-me:hover {
+  background-color: #1E293B;
+  border-color: #38BDF8;
+  transform: translateY(-2px);
+}
+
+.contact-me:active {
+  transform: translateY(0);
+}
+

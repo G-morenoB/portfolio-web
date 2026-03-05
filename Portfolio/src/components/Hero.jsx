@@ -1,7 +1,7 @@
 import '../styles/hero.css'
 import { Mail, MessageCircle} from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faWhatsapp,faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -49,6 +49,16 @@ function Hero() {
   >
     <FontAwesomeIcon icon={faLinkedin} className="icon" />Linkedin
   </a>
+
+   <a 
+    href="https://github.com/G-morenoB" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-me"
+  >
+    <FontAwesomeIcon icon={faGithub} className="icon"/> GitHub
+  </a>
+
 </section>
       </div>
 

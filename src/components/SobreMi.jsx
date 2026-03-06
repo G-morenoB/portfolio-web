@@ -12,18 +12,18 @@ function SobreMi() {
 
         <div className="container_info_sobremi">
           <p>
-            Me llamo Ubaldo Gael, estudié Licenciatura en Ciencias de la Computación en la Benémerita Universidad Autónoma de Puebla (BUAP)
-          </p>
+            Me llamo Ubaldo Gael, estudié<span className="highlight"> Licenciatura en Ciencias de la Computación en la Benémerita Universidad Autónoma de Puebla (BUAP).</span>
+           </p>
             <p>
             
-            Disfruto aprender nuevas tecnologías y transformar ideas en proyectos funcionales.He trabajado 
-            con tecnologías como HTML, CSS, JavaScript y React para desarrollar interfaces web, además de crear aplicaciones
+            Disfruto aprender nuevas tecnologías y transformar ideas en proyectos funcionales. He trabajado 
+            con tecnologías como <span className="highlight">HTML, CSS, JavaScript y React</span> para desarrollar interfaces web, además de crear aplicaciones
             móviles con Android Studio. 
             También utilizo herramientas como Git para gestionar el desarrollo de mis proyectos.
             </p>
             <p>
-            Actualmente sigo fortaleciendo mis habilidades como desarrollador mientras construyo proyectos que me permitan aprender, experimentar y mejorar continuamente.
-          </p>
+            Actualmente sigo fortaleciendo mis habilidades como desarrollador mientras construyo proyectos que me permitan <span className="highlight">aprender, experimentar y mejorar continuamente.
+         </span> </p>
         </div>
 
         <div className="container_img">

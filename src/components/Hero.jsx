@@ -1,9 +1,7 @@
 import '../styles/hero.css'
-import { Mail, MessageCircle} from "lucide-react";
+import { Mail} from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faWhatsapp,faGithub } from "@fortawesome/free-brands-svg-icons";
-
-
 
 function Hero() {
   return (

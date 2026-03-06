@@ -1,6 +1,7 @@
+import '../styles/proyect.css';
 function Projects() {
   return (
-    <section className="section">
+    <section className="section-projects">
       <div className="project-row">
         <div>
           <h3>Example Project</h3>

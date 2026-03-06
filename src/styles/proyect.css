@@ -1,0 +1,15 @@
+/* Projects STYLES */
+
+.project-image {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  background: #1E293B;
+  border-radius: 16px;
+}
+.section-projects{
+ max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+

@@ -1,6 +1,8 @@
+import '../styles/experience.css'
+
 function Experience() {
   return (
-    <section className="section">
+    <section className="section_experience">
       <h2>Work Experience</h2>
 
       <div className="card-grid">

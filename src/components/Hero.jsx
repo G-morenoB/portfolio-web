@@ -2,6 +2,7 @@ import '../styles/hero.css'
 import { Mail} from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faWhatsapp,faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -10,9 +11,9 @@ function Hero() {
 
         <section className="img-button">
         <img src="/img/img_Gael.jpeg" alt="Foto de Gael" className="img_Gael"></img>
-        <button className="button-contact">Contactame para trabajar</button>
+        <button href="mailto:ubaldogaelcein@gmail.com"  className="button-contact">Contactame para trabajar</button>
         </section>
-
+ 
         <h1>
          Hola, soy Gael <span className="lastname"> Bataz</span>
         </h1>
@@ -51,19 +52,18 @@ function Hero() {
    <a 
     href="https://github.com/G-morenoB" 
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer" 
     className="contact-me"
   >
     <FontAwesomeIcon icon={faGithub} className="icon"/> GitHub
   </a>
 
+<a href="/cv_gaelbataz.pdf" className="contact-me" download>
+  <FontAwesomeIcon icon={faDownload} className="icon" />
+  Download CV
+</a>
 </section>
       </div>
-
-
-
-
-
       <div className="glow-circle"></div>
     </section>
   );

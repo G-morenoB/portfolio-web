@@ -28,7 +28,7 @@ function SobreMi() {
 
         <div className="container_img">
           <img 
-            src="./src/img/img_sobremi-gael.jpeg"
+            src="./public/img/img_sobremi-gael.jpeg"
             alt="Foto de Gael"
           />
         </div>

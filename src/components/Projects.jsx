@@ -1,16 +1,21 @@
-import '../styles/proyect.css';
+import '../styles/projects.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+
 function Projects() {
   return (
     <section className="section-projects">
       <div className="project-row">
         <div>
-          <h3>Example Project</h3>
-          <p>
-            Aplicación para gestión de asistencia con interfaz elegante.
-          </p>
+          <h1> <FontAwesomeIcon icon={faCode} /> Proyectos</h1>
         </div>
-
-        <div className="project-image"></div>
+        <section className="project-description"> 
+        <div className="project-image">
+          <img src=" " alt="Proyecto 1" className='img-proyect'/>
+          <h1>Nestor Guinto - Nutrición</h1>
+          <p>Landing Page para Nutriologo hecha con React y CSS.</p>
+        </div>
+        </section>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ function Hero() {
       <div className="hero-content">
 
         <section className="img-button">
-        <img src="public/img/img_Gael.jpeg" alt="Foto de Gael" className="img_Gael"></img>
+        <img src="/img/img_Gael.jpeg" alt="Foto de Gael" className="img_Gael"></img>
         <button className="button-contact">Contactame para trabajar</button>
         </section>
 

@@ -13,12 +13,20 @@ function Navbar() {
       >
         ☰
       </div>
-
+      
       <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
-        <li onClick={() => setIsOpen(false)}>Home</li>
-        <li onClick={() => setIsOpen(false)}>Experiencia</li>
-        <li onClick={() => setIsOpen(false)}>Proyectos</li>
-        <li onClick={() => setIsOpen(false)}>Sobre mi</li>
+        <li onClick={() => setIsOpen(false)} >
+          <a href="#home">Home</a>
+        </li>
+        <li onClick={() => setIsOpen(false)} >
+          <a href="#experience">Experiencia</a>
+        </li>
+        <li onClick={() => setIsOpen(false)} >
+          <a href="#projects">Proyectos</a>
+        </li>
+        <li onClick={() => setIsOpen(false)} >
+          <a href="#sobre-mi">Sobre mi</a>
+        </li>
       </ul>
     </nav>
   );

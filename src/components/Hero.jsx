@@ -6,15 +6,15 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
-    <section className="hero">
-      <div className="hero-content">
+    <section className="hero "id="home">
+      <div className="hero-content" >
 
         <section className="img-button">
         <img src="/img/img_Gael.jpeg" alt="Foto de Gael" className="img_Gael"></img>
         <button href="mailto:ubaldogaelcein@gmail.com"  className="button-contact">Contactame para trabajar</button>
         </section>
  
-        <h1>
+        <h1 >
          Hola, soy Gael <span className="lastname"> Bataz</span>
         </h1>
 

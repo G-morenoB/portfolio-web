@@ -2,7 +2,7 @@ import '../styles/experience.css'
 
 function Experience() {
   return (
-    <section className="section_experience">
+    <section className="section_experience" id="experience">
       <h2>Work Experience</h2>
 
       <div className="card-grid">

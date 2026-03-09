@@ -60,7 +60,7 @@ function Hero() {
 
 <a href="/cv_gaelbataz.pdf" className="contact-me" download>
   <FontAwesomeIcon icon={faDownload} className="icon" />
-  Download CV
+  Descargar CV
 </a>
 </section>
       </div>

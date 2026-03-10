@@ -7,7 +7,7 @@ function Projects() {
 
   const projects = [
     {
-      image: "/img/nutricion.png",
+      image: "/img/nutricionist.png",
       title: "Nestor Guinto - Nutrición",
       description: "Landing page para nutriólogo desarrollada con React y CSS.",
       tech: ["React", "CSS"],

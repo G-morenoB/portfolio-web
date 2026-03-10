@@ -8,6 +8,9 @@
 html{
   scroll-behavior: smooth;
 }
+html,body{
+overflow-x: hidden;
+}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -15,8 +18,7 @@ body {
   color: #F1F5F9;
   padding: 0;
   background-color: #0F172A;
-  overflow-x: hidden;
-  
+   padding-top: 80px;
 }
 
 .app-container {
@@ -35,6 +37,12 @@ body {
   right: 10%;
   opacity: 0.4;
 }
+@media (max-width:768px){
 
+  .glow-circle{
+max-width: 100%;
+  }
+
+}
 
 

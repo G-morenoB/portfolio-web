@@ -68,16 +68,16 @@
 
 .hero {
   position: relative;
- padding: 10rem 10% 17rem 10%;
+  padding: 4.5rem 6% 12rem;
    overflow-x: hidden;
 }
 
 .hero-content {
  max-width: 1100px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem;
     z-index: 2;
-  position: relative;
+  position:relative;
 }
 
 .intro {
@@ -102,8 +102,10 @@
 .contacts-content{
     display: flex; 
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem; 
     margin-top: 1.5rem;
+    max-width: 100%;
 }
 
 .contact-me{
@@ -131,3 +133,30 @@
   transform: translateY(0);
 }
 
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 60px 5% 70px;
+    
+  }
+  .hero-content{
+    padding: 0;
+  }
+  .contacts-content {
+    flex-wrap: wrap;
+  }
+    .img-button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    }
+    .img_Gael{
+     height: 25vw;
+     width: 25vw; 
+     object-fit: cover;
+    }
+      .hero h1{
+    font-size: 2.3rem;
+  }
+
+}

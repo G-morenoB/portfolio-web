@@ -22,6 +22,7 @@
   cursor: pointer;
   overflow: hidden;
   z-index: 1;
+    text-decoration: none; 
 }
 
 /* 🔥 Anillo de luz */

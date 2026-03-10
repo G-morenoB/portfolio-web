@@ -11,7 +11,11 @@ function Hero() {
 
         <section className="img-button">
         <img src="/img/img_Gael.jpeg" alt="Foto de Gael" className="img_Gael"></img>
-        <button href="mailto:ubaldogaelcein@gmail.com"  className="button-contact">Contactame para trabajar</button>
+        <a 
+        href="https://mail.google.com/mail/?view=cm&to=ubaldogaelcein@gmail.com" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="button-contact">Contactame para trabajar</a>
         </section>
  
         <h1 >
@@ -25,7 +29,9 @@ function Hero() {
 
 <section className="contacts-content"> 
   <a 
-    href="mailto:ubaldogaelcein@gmail.com" 
+    href="https://mail.google.com/mail/?view=cm&to=ubaldogaelcein@gmail.com" 
+    target="_blank"
+    rel="noopener noreferrer"
     className="contact-me"
   >
     <Mail className="icon" /> Correo

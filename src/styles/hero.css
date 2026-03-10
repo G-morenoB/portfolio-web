@@ -70,6 +70,8 @@
   position: relative;
   padding: 2rem 6% 12rem;
    overflow-x: hidden;
+  scroll-margin-top: 80px;
+
 }
 
 .hero-content {

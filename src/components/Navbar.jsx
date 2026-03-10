@@ -16,7 +16,7 @@ function Navbar() {
       
       <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
         <li onClick={() => setIsOpen(false)} >
-          <a href="#home">Home</a>
+          <a href="#home_hero">Home</a>
         </li>
         <li onClick={() => setIsOpen(false)} >
           <a href="#experience">Experiencia</a>

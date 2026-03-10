@@ -6,7 +6,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
-    <section className="hero "id="home">
+    <section className="hero "id="home_hero">
       <div className="hero-content" >
 
         <section className="img-button">

@@ -8,6 +8,8 @@ margin: 0 auto;
 }
 .sobre-mi-section{
   padding: 2rem 2rem;
+  scroll-margin-top: 80px;
+
 }
 
 .container_sobremi{

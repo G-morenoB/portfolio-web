@@ -88,13 +88,14 @@
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 3.1rem;
   font-weight: 700;
 }
 
 .description {
   margin-top: 1rem;
   color: #D1D5DB;
+    font-size: 1.3rem;
   font-weight: 400;
 }
 

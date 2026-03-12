@@ -5,10 +5,18 @@
    scroll-margin-top: 40px;
 }
 
+.section-projects h1{
+max-width: 1100px;
+font-size: 29px;
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
 .projects-container{
   display:flex;
   flex-direction:column;
-  gap:60px;
+  gap:4rem;
 }
 
 /* CARD */

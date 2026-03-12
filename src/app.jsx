@@ -11,7 +11,6 @@ function App() {
   <main className="app-container">
     <Navbar />
     <Hero />
-    <Experience />
     <Projects />
     <SobreMi/>
     <Footer />

@@ -18,9 +18,9 @@ function Navbar() {
         <li onClick={() => setIsOpen(false)} >
           <a href="#home_hero">Home</a>
         </li>
-        <li onClick={() => setIsOpen(false)} >
+        {/*<li onClick={() => setIsOpen(false)} >
           <a href="#experience">Experiencia</a>
-        </li>
+        </li>*/}
         <li onClick={() => setIsOpen(false)} >
           <a href="#projects">Proyectos</a>
         </li>

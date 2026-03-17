@@ -9,17 +9,9 @@ function Projects() {
     {
       image: "/img/nutricionist.png",
       title: "Nestor Guinto - Nutrición",
-      description: "Landing page para nutriólogo desarrollada con React y CSS.",
+      description: "Página web responsive para nutriólogo desarrollada con React y CSS.",
       tech: ["React", "CSS"],
-      github: "https://github.com/",
-      demo: "https://demo.com"
-    },
-    {
-      image: "/img/app.png",
-      title: "Task Manager",
-      description: "Aplicación web para gestionar tareas.",
-      tech: ["React", "Node.js"],
-      github: "https://github.com/",
+      github: "https://github.com/G-morenoB/NestorGuinto-Nutricion-",
       demo: "https://demo.com"
     }
   ];

@@ -12,7 +12,7 @@ function Projects() {
       description: "Página web responsive para nutriólogo desarrollada con React y CSS.",
       tech: ["React", "CSS"],
       github: "https://github.com/G-morenoB/NestorGuinto-Nutricion-",
-      demo: "https://demo.com"
+      demo: ""
     }
   ];
 

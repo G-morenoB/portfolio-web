@@ -20,11 +20,11 @@ function ProjectCard({ image, title, description, tech, github, demo }) {
 
         <div className="project-buttons">
           <a href={github} target="_blank" rel="noopener noreferrer" className="btn">
-            Code
+            Código
           </a>
 
           <a href={demo} target="_blank" rel="noopener noreferrer" className="btn preview">
-            Preview
+            Ver
           </a>
         </div>
 

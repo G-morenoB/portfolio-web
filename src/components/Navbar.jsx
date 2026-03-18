@@ -25,6 +25,9 @@ function Navbar() {
           <a href="#projects">Proyectos</a>
         </li>
         <li onClick={() => setIsOpen(false)} >
+          <a href="#skills">Skills</a>
+        </li>
+        <li onClick={() => setIsOpen(false)} >
           <a href="#sobre-mi">Sobre mi</a>
         </li>
       </ul>

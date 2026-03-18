@@ -5,7 +5,7 @@ function SobreMi() {
   return (
     <section id="sobre-mi" className="sobre-mi-section">
         <h2 className="sobre-mi-title">      
-         <FontAwesomeIcon icon={faUserAstronaut} className="icon" />  Sobre mí
+        {/* <FontAwesomeIcon icon={faUserAstronaut} className="icon" /> */} Sobre mí
       </h2>
 
       <div className="container_sobremi">

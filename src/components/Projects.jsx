@@ -10,7 +10,7 @@ function Projects() {
       image: "/img/nutricionist.png",
       title: "Nestor Guinto - Nutrición",
       description: "Página web responsive para nutriólogo desarrollada con React y CSS.",
-      tech: ["React", "CSS"],
+      tech: ["En desarrollo","React", "CSS",],
       github: "https://github.com/G-morenoB/NestorGuinto-Nutricion-",
       demo: ""
     }
@@ -20,7 +20,7 @@ function Projects() {
     <section className="section-projects" id="projects">
 
       <h1>
-        <FontAwesomeIcon icon={faCode} /> Proyectos
+       {/*<FontAwesomeIcon icon={faCode} />  */} Proyectos
       </h1>
 
       <div className="projects-container">

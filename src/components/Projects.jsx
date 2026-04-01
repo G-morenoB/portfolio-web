@@ -13,6 +13,14 @@ function Projects() {
       tech: ["En desarrollo","React", "CSS",],
       github: "https://github.com/G-morenoB/NestorGuinto-Nutricion-",
       demo: ""
+    },
+        {
+      image: "/img/proyect2.png",
+      title: "Zona Basquet",
+      description: "Panel de administración para una tienda de artículos deportivos con CRUD de productos",
+      tech: ["MongoDB","Express","TypeScript","React", "Tailwind","Cloudinary",],
+      github: "https://github.com/G-morenoB/inventario-deportivo",
+      demo: ""
     }
   ];
 
@@ -20,7 +28,7 @@ function Projects() {
     <section className="section-projects" id="projects">
 
       <h1>
-       {/*<FontAwesomeIcon icon={faCode} />  */} Proyectos
+       Proyectos
       </h1>
 
       <div className="projects-container">

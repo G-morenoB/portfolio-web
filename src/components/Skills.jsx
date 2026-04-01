@@ -6,7 +6,7 @@ function Skills() {
   const data = [
     {
       title: "Frontend",
-      skills: ["HTML", "CSS", "JavaScript", "React"]
+      skills: ["HTML", "CSS", "JavaScript", "React","Tailwind", "Bootstrap"]
     },
     {
       title: "Backend",

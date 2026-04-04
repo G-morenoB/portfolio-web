@@ -23,7 +23,7 @@ function Projects() {
       demo: "https://zonabasquet-app.vercel.app/dashboard"
     },
       {
-      image: "/img/proyect2.png",
+      image: "/img/proyect3.png",
       title: "Zona Basquet- Catalogo",
       description: "Catálogo para una tienda de artículos deportivos con búsqueda por filtros",
       tech: ["MongoDB","Express","TypeScript","React", "Tailwind","Cloudinary",],

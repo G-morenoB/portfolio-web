@@ -1,6 +1,4 @@
 import '../styles/projects.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {

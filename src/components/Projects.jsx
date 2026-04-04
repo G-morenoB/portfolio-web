@@ -10,18 +10,26 @@ function Projects() {
       image: "/img/nutricionist.png",
       title: "Nestor Guinto - Nutrición",
       description: "Página web responsive para nutriólogo desarrollada con React y CSS.",
-      tech: ["En desarrollo","React", "CSS",],
+      tech: ["React", "CSS",],
       github: "https://github.com/G-morenoB/NestorGuinto-Nutricion-",
-      demo: ""
+      demo: "https://nestorguinto-nutricion.vercel.app/"
     },
         {
       image: "/img/proyect2.png",
-      title: "Zona Basquet",
-      description: "Panel de administración para una tienda de artículos deportivos con CRUD de productos",
+      title: "Zona Basquet- Panel de administración",
+      description: "Panel de administración con login para una tienda de artículos deportivos con CRUD de productos",
       tech: ["MongoDB","Express","TypeScript","React", "Tailwind","Cloudinary",],
       github: "https://github.com/G-morenoB/inventario-deportivo",
-      demo: ""
-    }
+      demo: "https://zonabasquet-app.vercel.app/dashboard"
+    },
+      {
+      image: "/img/proyect2.png",
+      title: "Zona Basquet- Catalogo",
+      description: "Catálogo para una tienda de artículos deportivos con búsqueda por filtros",
+      tech: ["MongoDB","Express","TypeScript","React", "Tailwind","Cloudinary",],
+      github: "https://github.com/G-morenoB/inventario-deportivo",
+      demo: "https://zonabasquet-app.vercel.app/catalogo"
+    },
   ];
 
   return (

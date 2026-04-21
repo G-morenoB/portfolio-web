@@ -10,11 +10,7 @@ function Skills() {
     },
     {
       title: "Backend",
-      skills: ["Java", "PHP"]
-    },
-    {
-      title: "Bases de Datos",
-      skills: ["MySQL"]
+      skills: ["Java", "PHP","MySQL", "Supabase"]
     },
         {
       title: "Herramientas",

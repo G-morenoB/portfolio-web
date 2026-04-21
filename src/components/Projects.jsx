@@ -12,6 +12,14 @@ function Projects() {
       github: "https://github.com/G-morenoB/NestorGuinto-Nutricion-",
       demo: "https://nestorguinto-nutricion.vercel.app/"
     },
+            {
+      image: "/img/gym.png",
+      title: "PWA Para gimnasio",
+      description: "Aplicación web progresiva para un gimnasio, vista de administrador y de",
+      tech: ["React", "TypeScript", "Tailwind", "Supabase"],
+      github: "https://github.com/G-morenoB/pwa-gimnasio",
+      demo: ""
+    },
         {
       image: "/img/proyect2.png",
       title: "Zona Basquet- Panel de administración",
@@ -28,14 +36,7 @@ function Projects() {
       github: "https://github.com/G-morenoB/inventario-deportivo",
       demo: "https://zonabasquet-app.vercel.app/catalogo"
     },
-        {
-      image: "/img/proyect3.png",
-      title: "PWA Para gimnasio",
-      description: "Aplicación web progresiva para un gimnasio, vista de administrador y de",
-      tech: ["React", "TypeScript", "Tailwind", "Supabase"],
-      github: "https://github.com/G-morenoB/pwa-gimnasio",
-      demo: "https://pwa-gimnasio.vercel.app/"
-    },
+
   ];
 
   return (

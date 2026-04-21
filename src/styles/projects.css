@@ -39,7 +39,7 @@ align-items: center;
 /* IMAGE */
 .project-image{
   width:100%;
-  aspect-ratio: 16 / 9;
+  height:240px;
   overflow:hidden;
   border-radius:10px;
 }

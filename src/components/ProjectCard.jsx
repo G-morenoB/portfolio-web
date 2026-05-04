@@ -1,6 +1,29 @@
-function ProjectCard({ image, title, description, tech, github, demo }) {
+import { useEffect, useRef, useState } from "react";
+
+function ProjectCard({ image, title, description, tech, github, demo, className }) {
+  const ref = useRef();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    observer.observe(ref.current);
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="project-card">
+    <div
+      ref={ref}
+      className={`project-card ${className} ${visible ? "show" : ""}`}
+    >
 
       <div className="project-image">
         <img src={image} alt={title} />

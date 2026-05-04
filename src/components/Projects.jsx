@@ -47,10 +47,14 @@ function Projects() {
       </h1>
 
       <div className="projects-container">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
-        ))}
-      </div>
+      {projects.map((project, index) => (
+       <ProjectCard 
+      key={index} 
+      {...project} 
+      className={index % 2 === 0 ? "from-left" : "from-right"}
+    />
+  ))}
+</div>
 
     </section>
   );

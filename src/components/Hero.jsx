@@ -47,7 +47,7 @@ function Hero() {
   </a>
 
   <a 
-    href="https://www.linkedin.com/in/gael-bataz-617a223a6" 
+    href="www.linkedin.com/in/ubaldo-gael-moreno-bataz-617a223a6" 
     target="_blank"
     rel="noopener noreferrer"
     className="contact-me"

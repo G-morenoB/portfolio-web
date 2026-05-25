@@ -18,19 +18,19 @@ body {
   margin: 0;
   color: #F1F5F9;
   padding: 0;
-  background-color: #0F172A;
+  background-color: #111827;
    padding-top: 80px;
      overflow-x: hidden;
    
 }
 
 .app-container {
-  background-color: #0F172A;
+  background-color: #111827;
   min-height: 100vh;
 }
 
 
-/* Glow Effect */
+/* Glow Effect 
 .glow-circle {
   position: absolute;
   width: 500px;
@@ -41,7 +41,7 @@ body {
   right: -150px;
   opacity: 0.4;
   pointer-events: none;
-}
+}*/
 @media (max-width:768px){
 
   .glow-circle{

@@ -28,13 +28,10 @@ function Hero() {
 
         {/* Columna izquierda */}
         <div className="hero-left">
-          <span className="hero-tag">Geniero de Software</span>
-          <h1>Desarrollador <span className="accent-green">Full-Stack</span></h1>
+          <span className="hero-tag">Licenciado en Ciencias de la Computación</span>
+          <h1>Desarrollador <span className="accent-green">Full-Stack Jr.</span></h1>
           <p className="hero-description">
-            Desarrollador full-stack especializado en la creación de soluciones digitales
-            a medida. Aunque estoy en las primeras etapas de mi carrera como
-            desarrollador, creo tener una base sólida para crear productos funcionales,
-            escalables y visualmente coherentes.
+          Desarrollador full-stack enfocado en construir experiencias web modernas y escalables.
           </p>
           <a href="/cv_gaelbataz.pdf" className="btn-cv" download>
             <FontAwesomeIcon icon={faDownload} /> DESCARGAR CV

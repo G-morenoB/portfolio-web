@@ -1,0 +1,31 @@
+/* Skills.css */
+.skills {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.skills__heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 40px;
+  letter-spacing: -0.01em;
+}
+
+.skills__heading-icon {
+  color: #00c8ff;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.skills__list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

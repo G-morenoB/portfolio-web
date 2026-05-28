@@ -4,7 +4,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import SobreMi from "./components/SobreMi";
 import Footer from "./components/Footer";
-import Skills from "./components/Skills";
+//import Skills from "./components/Skills";
+import Skills from "./components/skills/Skills";
 import "./styles.css";
 
 function App() {

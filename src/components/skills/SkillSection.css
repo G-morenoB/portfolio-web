@@ -1,0 +1,67 @@
+.skill-section {
+  background: #1e2330;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.skill-section::before {
+  content: "";
+  display: block;
+  height: 3px;
+  background: var(--accent, #00c8ff);
+}
+
+.skill-section__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.skill-section__dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+}
+
+.dot--red    { background: #ff5f57; }
+.dot--yellow { background: #ffbd2e; }
+.dot--green  { background: #28c840; }
+
+.skill-section__title {
+  flex: 1;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #e2e8f0;
+  margin: 0;
+  /* Offset to visually center relative to dots */
+  padding-right: 42px;
+}
+
+/* Technologies grid */
+.skill-section__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+/* 3-col grid on wider containers */
+@media (min-width: 480px) {
+  .skill-section__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

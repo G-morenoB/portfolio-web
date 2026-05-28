@@ -1,79 +1,71 @@
 import '../styles/hero.css'
-import { Mail} from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faWhatsapp,faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faWhatsapp, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { Mail } from "lucide-react";
+import ProfileCard from './ProfileCard'
 
 function Hero() {
   return (
-    <section className="hero "id="home_hero">
-      <div className="hero-content" >
+    <section className="hero" id="home_hero">
 
-        <section className="img-button">
-        <img src="/img/img_Gael.jpeg" alt="Foto de Gael" className="img_Gael"></img>
-        <a 
-        href="https://mail.google.com/mail/?view=cm&to=ubaldogaelcein@gmail.com" 
-        target="_blank"
-        rel="noopener noreferrer"
-        className="button-contact">Contactame para trabajar</a>
-        </section>
- 
-        <h1 >
-         Hola, soy Gael <span className="lastname"> Bataz</span>
-        </h1>
+      {/* Barra lateral vertical */}
+      <aside className="hero-sidebar">
+        <a href="https://github.com/G-morenoB" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href="https://www.linkedin.com/in/ubaldo-gael-moreno-bataz-617a223a6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&to=ubaldogaelcein@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Correo">
+          <Mail size={18} />
+        </a>
+        <span className="sidebar-label">SÍGUEME</span>
+      </aside>
 
-        <h2 className="description">
-          <span className="accent"> Licenciado en Ciencias de la Computación</span> enfocado en desarrollo web moderno 
-          y creación de productos digitales escalables. 
-        </h2>
+      {/* Contenido principal: texto izquierda, foto derecha */}
+      <div className="hero-content">
 
-<section className="contacts-content"> 
-  <a 
-    href="https://mail.google.com/mail/?view=cm&to=ubaldogaelcein@gmail.com" 
-    target="_blank"
-    rel="noopener noreferrer"
-    className="contact-me"
-  >
-    <Mail className="icon" /> Correo
-  </a>
+        {/* Columna izquierda */}
+        <div className="hero-left">
+          <span className="hero-tag">Geniero de Software</span>
+          <h1>Desarrollador <span className="accent-green">Full-Stack</span></h1>
+          <p className="hero-description">
+            Desarrollador full-stack especializado en la creación de soluciones digitales
+            a medida. Aunque estoy en las primeras etapas de mi carrera como
+            desarrollador, creo tener una base sólida para crear productos funcionales,
+            escalables y visualmente coherentes.
+          </p>
+          <a href="/cv_gaelbataz.pdf" className="btn-cv" download>
+            <FontAwesomeIcon icon={faDownload} /> DESCARGAR CV
+          </a>
+        </div>
 
-  <a 
-    href="https://wa.me/5217811073905" 
-    target="_blank"
-    rel="noopener noreferrer"
-    className="contact-me"
-  >
-    <FontAwesomeIcon icon={faWhatsapp} className="icon"/> WhatsApp
-  </a>
+        {/* Columna derecha: foto */}
+        <div className="hero-right">
+          <ProfileCard
+            name="U. Gael Bataz"
+            title="Dev Jr."
+            handle="Gael"
+            status="Online"
+            contactText="Contact Me"
+            avatarUrl="/img/img_Gael.jpeg"
+            showUserInfo={false}
+            enableTilt={true}
+            enableMobileTilt={false}
+            onContactClick={() => console.log('Contact clicked')}
+            behindGlowColor="rgba(125, 190, 255, 0.67)"
+            iconUrl="/img/img_Gael.jpeg"
+            behindGlowEnabled
+            innerGradient="linear-gradient(145deg,#60496e8c 0%,#71C4FF44 100%)"
+          />
+        </div>
 
-  <a 
-    href="https://www.linkedin.com/in/ubaldo-gael-moreno-bataz-617a223a6/" 
-    target="_blank"
-    rel="noopener noreferrer"
-    className="contact-me"
-  >
-    <FontAwesomeIcon icon={faLinkedin} className="icon" />Linkedin
-  </a>
-
-   <a 
-    href="https://github.com/G-morenoB" 
-    target="_blank"
-    rel="noopener noreferrer" 
-    className="contact-me"
-  >
-    <FontAwesomeIcon icon={faGithub} className="icon"/> GitHub
-  </a>
-
-<a href="/cv_gaelbataz.pdf" className="contact-me" download>
-  <FontAwesomeIcon icon={faDownload} className="icon" />
-  Descargar CV
-</a>
-</section>
       </div>
+
       <div className="glow-circle"></div>
     </section>
   );
 }
 
 export default Hero;
-

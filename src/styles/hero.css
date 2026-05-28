@@ -1,167 +1,131 @@
-.img-button{
-    display: flex; 
-    align-items: center;
-    gap: 1.5rem; 
-}
-
-.img_Gael{
-  border-radius: 50%;
-  height: 130px;
-  width: 130px; 
-  object-fit: cover;
-}
-
-.button-contact {
-  position: relative;
-  padding: 0.6rem 1.5rem;
-  border-radius: 999px;
-  background-color: #1F2937;
-   border: 2px solid #6366F1;
-  color: #F1F5F9;
-  font-size: .9rem;
-  cursor: pointer;
- overflow: hidden;
-   z-index: 1;
-    text-decoration: none; 
-}
-
-/* 🔥 Anillo de luz */
-.button-contact::before {
-  content: "";
-  position: absolute;
-  inset: -2px; /* 👈 importante */
-  border-radius: 999px;
-
-  background: conic-gradient(
-    transparent 0deg,
-    #c084fc 90deg,
-    transparent 180deg
-  );
-
-  animation: rotateLight 6s linear infinite;
-
-  z-index: -1;
-}
-
-
-/* Recorte interior para que solo se vea el borde */
-.button-contact::after {
-  content: "";
-  position: absolute;
-  inset: 3px;
-  background: #0F172A;
-  border-radius: 999px;
-  z-index: -1;
-}
-
-/* Animación */
-@keyframes rotateLight {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.button-contact:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);}
-
 .hero {
   position: relative;
-  padding: 2rem 6% 7rem;
-   overflow-x: hidden;
+  display: flex;
+  align-items: stretch;
+  padding: 3rem 6% 4rem 5rem;
+  overflow-x: hidden;
   scroll-margin-top: 80px;
-
 }
 
-.hero-content {
- max-width: 1100px;
-  margin: 0 auto;
-  padding: 1rem;
-    z-index: 2;
-  position:relative;
-}
-
-.intro {
-  color: #94A3B8;
-}
-
-.hero h1 {
-  font-size: 3.1rem;
-  font-weight: 700;
-}
-
-.description {
-  margin-top: 1rem;
-  color: #D1D5DB;
-    font-size: 1.3rem;
-  font-weight: 400;
-}
-
-.accent {
-    color: #FEF08A;
-}
-
-.contacts-content{
-    display: flex; 
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem; 
-    margin-top: 1.5rem;
-    max-width: 100%;
-}
-
-.contact-me{
-  display: flex; 
+/* Sidebar vertical izquierda */
+.hero-sidebar {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: .6rem;
+  gap: 1.2rem;
+  position: absolute;
+  left: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #1E293B;
+  border-radius: 12px;
+  padding: 1rem 0.7rem;
+}
+
+.hero-sidebar a {
+  color: #94A3B8;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.hero-sidebar a:hover {
+  color: #4ADE80;
+}
+
+.sidebar-label {
+  writing-mode: vertical-rl;
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  color: #475569;
+  margin-top: 0.5rem;
+}
+
+/* Layout de dos columnas */
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 2;
   position: relative;
-  padding: 0.6rem 1.5rem;
+}
+
+/* Columna izquierda */
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.hero-tag {
+  color: #94A3B8;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.hero-left h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #F8FAFC;
+  line-height: 1.1;
+}
+
+.accent-green {
+  color: #4ADE80;
+  display: block;
+}
+
+.hero-description {
+  color: #CBD5E1;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  border-left: 3px solid #334155;
+  padding-left: 1rem;
+  max-width: 480px;
+}
+
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #4ADE80;
+  color: #0F172A;
+  padding: 0.65rem 1.8rem;
   border-radius: 999px;
-  background-color: #0F172A;
-  border: 2px solid #6e6f7c;
-  color: #F1F5F9;
-  font-size: 1rem;
-  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  width: fit-content;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.contact-me:hover {
-   background: #c084fc; /* morado */
-  box-shadow: 0 0 8px rgba(168, 85, 247, 0.5);
+.btn-cv:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(74, 222, 128, 0.35);
 }
 
-.contact-me:active {
-  transform: translateY(0);
+/* Columna derecha: foto */
+.hero-right {
+  flex-shrink: 0;
+  width: 280px;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
-
   .hero {
-    padding: 60px 5% 70px;
-    
+    padding: 4rem 5% 3rem 4rem;
   }
-  .hero-content{
-    padding: 0;
+  .hero-content {
+    flex-direction: column-reverse;
+    gap: 2rem;
   }
-  .contacts-content {
-    flex-wrap: wrap;
+  .hero-right {
+    width: 60vw;
+    max-width: 240px;
   }
-    .img-button{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    }
-    .img_Gael{
-     height: 25vw;
-     width: 25vw; 
-     object-fit: cover;
-    }
-      .hero h1{
-    font-size: 2.3rem;
+  .hero-left h1 {
+    font-size: 2.2rem;
   }
-
 }

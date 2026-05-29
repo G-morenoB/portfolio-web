@@ -559,4 +559,11 @@
     font-size: 9px;
     border-radius: 50px;
   }
+  .pc-avatar-content .avatar {
+  z-index: 10;
+  position: relative;
+}
+.pc-avatar-content {
+  mix-blend-mode: normal;
+}
 }

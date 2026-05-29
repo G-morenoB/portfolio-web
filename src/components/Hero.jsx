@@ -46,7 +46,7 @@ function Hero() {
             handle="Gael"
             status="Online"
             contactText="Contact Me"
-            avatarUrl="/img/img_Gael.jpeg"
+            avatarUrl="/img/img_Gael.png"
             showUserInfo={false}
             enableTilt={true}
             enableMobileTilt={false}

@@ -42,7 +42,7 @@ function Hero() {
         <div className="hero-right">
           <ProfileCard
             name="Gael Bataz"
-            title="."
+            title=""
             handle="Gael"
             status="Online"
             contactText="Contact Me"

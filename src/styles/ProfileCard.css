@@ -90,13 +90,21 @@
   z-index: 1;
 }
 
-.pc-card > * {
+.pc-card * {
   display: grid;
   grid-area: 1/-1;
   border-radius: var(--card-radius);
   pointer-events: none;
 }
 
+.pc-avatar-content .avatar {
+  display: block !important;
+  grid-area: unset !important;
+}
+
+.pc-avatar-content {
+  display: block !important;
+}
 .pc-inside {
   inset: 0;
   position: absolute;
@@ -106,11 +114,11 @@
 }
 
 .pc-shine {
-  /*mask-image: var(--icon);
+  mask-image: var(--icon);
   mask-mode: luminance;
   mask-repeat: repeat;
   mask-size: 150%;
-  mask-position: top calc(200% - (var(--background-y) * 5)) left calc(100% - var(--background-x));*/
+  mask-position: top calc(200% - (var(--background-y) * 5)) left calc(100% - var(--background-x));
   transition: filter 0.8s ease;
   filter: brightness(0.66) contrast(1.33) saturate(0.33) opacity(0.5);
   animation: holo-bg 18s linear infinite;

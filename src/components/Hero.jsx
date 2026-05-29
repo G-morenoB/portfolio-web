@@ -28,7 +28,7 @@ function Hero() {
 
         {/* Columna izquierda */}
         <div className="hero-left">
-          <span className="hero-tag">Geniero de Software</span>
+          <span className="hero-tag">Ingeniero de Software</span>
           <h1>Desarrollador <span className="accent-green">Full-Stack</span></h1>
           <p className="hero-description">
             Desarrollador full-stack especializado en la creación de soluciones digitales

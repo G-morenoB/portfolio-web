@@ -102,9 +102,9 @@
   grid-area: unset !important;
 }
 
-.pc-avatar-content {
+/*.pc-avatar-content {
   display: block !important;
-}
+}*/
 .pc-inside {
   inset: 0;
   position: absolute;

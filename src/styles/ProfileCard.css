@@ -106,7 +106,7 @@
 }
 
 .pc-shine {
-  mask-image: var(--icon);
+  /*mask-image: var(--icon);*/
   mask-mode: luminance;
   mask-repeat: repeat;
   mask-size: 150%;
@@ -243,7 +243,7 @@
 }
 
 .pc-avatar-content {
-  mix-blend-mode: luminosity;
+ /* mix-blend-mode: luminosity;*/
   overflow: visible;
   transform: translateZ(2);
   backface-visibility: hidden;

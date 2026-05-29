@@ -41,8 +41,8 @@ function Hero() {
         {/* Columna derecha: foto */}
         <div className="hero-right">
           <ProfileCard
-            name="U. Gael Bataz"
-            title="Dev Jr."
+            name="Gael Bataz"
+            title="."
             handle="Gael"
             status="Online"
             contactText="Contact Me"

@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section className="skills" id="skills">
       <h2 className="skills__heading">
-        <span className="skills__heading-icon">{"{ }"}</span>
+        <span className="skills__heading-icon"></span>
         Habilidades
       </h2>
 

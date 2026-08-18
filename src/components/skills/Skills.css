@@ -9,18 +9,19 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 1.8rem;
+  font-size: 36px;
   font-weight: 700;
   color: #e2e8f0;
   margin-bottom: 40px;
+  margin-left: 80px;
   letter-spacing: -0.01em;
 }
 
-.skills__heading-icon {
+/*.skills__heading-icon {
   color: #00c8ff;
   font-family: monospace;
   font-size: 1.5rem;
-}
+}*/
 
 .skills__list {
   display: flex;
@@ -30,8 +31,12 @@
   flex-wrap: wrap;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   .SkillSection{
     width: 90%;
   }
+    .skills__heading {
+      margin-left:-10px;
+    }
+  
 }

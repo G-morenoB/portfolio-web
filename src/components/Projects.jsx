@@ -36,6 +36,14 @@ function Projects() {
       github: "https://github.com/G-morenoB/inventario-deportivo",
       demo: "https://zonabasquet-app.vercel.app/catalogo"
     },
+    {
+      image: "/img/magicideas.png",
+      title: "Magic Ideas - Desayunos Sorpresa (En desarrollo)",
+      description: "Tienda Online de Desaynos sorpesa",
+      tech: ["WordPress", "WooCommerce", "PHP"],
+      github: "",
+      demo: "https://silver-bee-938985.hostingersite.com/"
+    },
 
   ];
 

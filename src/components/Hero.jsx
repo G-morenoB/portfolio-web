@@ -33,7 +33,7 @@ function Hero() {
           <p className="hero-description">
           Desarrollador full-stack enfocado en construir experiencias web modernas y escalables.
           </p>
-          <a href="/gael_bataz_cv.pdf" className="btn-cv" download>
+          <a href="/CV_Gael_Bataz_DW.pdf" className="btn-cv" download>
             <FontAwesomeIcon icon={faDownload} /> DESCARGAR CV
           </a>
         </div>
